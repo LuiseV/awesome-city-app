@@ -18,5 +18,5 @@ app.use(methodOverride());
 
 require('./routes/index.js')(app);
 
-app.listen(8080);
-console.log("App listening on port 8080");
+app.listen(80);
+console.log("App listening on port 80");
